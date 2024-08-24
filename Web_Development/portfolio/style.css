@@ -1,0 +1,410 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.05);
+}
+
+#name{
+    height: 100px;
+    width: 418px;
+    color: rgb(0, 253, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px; 
+    color: #3200fb;
+}
+
+
+#links{
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact{
+    height: 100px;
+    width: 418px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchors{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.anchors:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+}
+
+#button{
+    padding: 9px 30px 9px 30px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    border: 2px solid rgb(0, 27, 232);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+}
+
+#button:hover{
+    background-color: white;
+    color: blue;
+}
+
+#home{
+    height: 540px;
+    width: 99.9%;
+}
+
+#intro{
+    height: 370px;
+    width: 600px;
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
+
+.introtext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    margin: 0 0 10px 0;
+    color: rgb(34, 34, 34);
+}
+
+#myname{
+    color: blue;
+}
+
+#hire{
+    margin: 18px 0 40px 0;
+    padding: 9px 30px 9px 30px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    border: 2px solid rgb(0, 27, 232);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+}
+
+#hire:hover{
+    background-color: white;
+    color: blue;
+}
+
+#socials{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intropic{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    top: -320px;
+}
+
+.intro-logo{
+    text-decoration: none; 
+}
+
+#about{
+    height: 500px;
+    width: 99.8%;
+}
+
+.show-name-between{
+    height: 30px;
+    width: 99.8%;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px; 
+    color: blue;
+    letter-spacing: 2px;
+}
+
+#for-photo{
+    height: 280px;
+    width: 220px;
+    border: 1px solid black;
+    position: relative;
+    top: 60px;
+    left: 450px;
+}
+
+#for-myinfo{
+    height: 180px;
+    width: 500px;
+    position: relative;
+    top: -170px;
+    left: 762px;
+}
+
+#my-name{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+#my-obj{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#skills{
+    height: 490px;
+    width: 99.8%;
+    /* border: 2px solid black; */
+}
+
+#skills-pic{
+    height: 350px;
+    width: 500px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 150px;
+    top: 50px;    
+}
+
+#for-tech{
+    height: 350px;
+    width: 500px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -303px;
+    left: 840px;   
+}
+
+#tech-head{
+    height: 60px;
+    width: 500px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#tech-text{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.tech-icon{
+    width: 400px;
+    height: 60px;
+    /* background-color: lightcoral; */
+    /* border: 1px solid black; */
+    margin: 30px 47px 50px 47px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+#projects{
+    height: 1120px;
+    width: 99.8%;
+    /* border: 2px solid black; */
+}
+
+#for-shop{
+    height: 400px;
+    width: 700px;
+    border: 0.5px solid #ddd;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 5px;
+}
+
+#for-shop2{
+    height: 400px;
+    width: 700px;
+    border: 0.5px solid #ddd;
+    position: relative;
+    top: -363px;
+    left: 775px;
+    border-radius: 5px;
+}
+
+#show-bet{
+    height: 30px;
+    width: 99.8%;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: -330px;
+    letter-spacing: 1px;
+    color: rgb(68, 66, 66);
+}
+
+#for-sales{
+    height: 400px;
+    width: 700px;
+    border: 0.5px solid #ddd;
+    position: relative;
+    top: -280px;
+    left: 30px;
+    border-radius: 5px;
+}
+
+#for-herald{
+    height: 400px;
+    width: 700px;
+    border: 0.5px solid #ddd;
+    position: relative;
+    top: -683px;
+    left: 775px;
+    border-radius: 5px;
+}
+
+#show-bete{
+    height: 30px;
+    width: 99.8%;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: -650px;
+    letter-spacing: 1px;
+    color: rgb(68, 66, 66);
+}
+
+#contacts{
+    height: 500px;
+    width: 99.8%;
+    /* border: 2px solid black; */
+}
+
+#for-contactPic{
+    position: relative;
+    top: 80px;
+    left: 40px;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 60px;   
+}
+
+#for-contact{
+    height: 280px;
+    width: 500px;
+    /* background-color: lightcoral; */
+    position: relative;
+    top: -265px;
+    left: 840px;
+}
+
+#contact-msg{
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.contact-go{
+    height: 40px;
+    width: 310px;
+    /* background-color: green; */
+    margin: 45px 0 0 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(73, 71, 71);
+}
+
+.contact-wp{
+    height: 40px;
+    width: 310px;
+    /* background-color: green; */
+    margin: 40px 0 0 92px;
+
+}
+
+#whatsap{
+    position: relative;
+    left: 13px;
+    top: 7px;
+}
+
+#num{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 52px;
+    top: -18px;
+    color: rgb(73, 71, 71);
+}
+
+footer{
+    height: 110px;
+    width: 100%;
+    background-color: #202e3b;
+}
+
+#socio{
+    width: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 660px;
+    top: 25px;
+
+}
+
+#copyr{
+    text-align: center;
+    position: relative;
+    top: 32px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
